@@ -1,0 +1,134 @@
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 50px auto;
+  padding: 80px 40px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+.container h2 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 300;
+}
+.container form .form-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 35px;
+}
+.container form .form-container .form-group label {
+  font-size: 14px;
+}
+.container form .form-container .form-group .form-control, .container form .form-container .form-group select {
+  display: block;
+  height: 32px;
+  width: 100%;
+  border-width: 0 0 1px 0;
+}
+.container form .form-container .form-group .form-control:hover, .container form .form-container .form-group .form-control:focus, .container form .form-container .form-group select:hover, .container form .form-container .form-group select:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.container form .form-submit {
+  text-align: center;
+  margin-top: 40px;
+}
+.container form .form-submit button {
+  display: inline-block;
+  width: 150px;
+  border: 0;
+  background: #030b87;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.container .exportDataBtn {
+  margin-top: 25px;
+}
+.container .exportDataBtn button {
+  background-color: #0d9600;
+  padding: 6px 10px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 40px;
+}
+table th, table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+table th {
+  background-color: #f2f2f2;
+}
+table th tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+table button {
+  padding: 6px 10px;
+  cursor: pointer;
+  background-color: #ff6347;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+.modal .modal-dialog {
+  max-width: 500px;
+  width: 100%;
+  margin: 100px auto;
+}
+.modal .modal-dialog .modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.modal .modal-dialog .modal-buttons {
+  margin-top: 20px;
+}
+.modal .modal-dialog .modal-buttons button {
+  padding: 8px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.modal .modal-dialog .modal-buttons .close {
+  background-color: gray !important;
+}
+.modal .modal-dialog button {
+  padding: 6px 12px;
+  margin-top: 15px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.modal .modal-dialog button:hover {
+  background-color: #d32f2f;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=/src.80ee2152.css.map */

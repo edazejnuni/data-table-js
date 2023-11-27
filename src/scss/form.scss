@@ -1,0 +1,62 @@
+.container{
+    max-width: 800px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 80px 40px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+    border-radius: 20px;
+    h2{
+        margin-bottom: 50px;
+        text-align: center;
+        font-weight: 300;
+    }
+    form{
+        .form-container{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 35px;
+            .form-group{
+                label{
+                    font-size: 14px;
+                }
+                .form-control, select
+                {
+                    display: block;
+                    height: 32px;
+                    width: 100%;
+                    border-width: 0 0 1px 0;
+                    &:hover, &:focus{
+                        box-shadow: none;
+                        outline: 0;
+                    }
+                }
+            }
+        }
+        .form-submit{
+            text-align: center;
+            margin-top: 40px;
+            button{
+                display: inline-block;
+                width: 150px;
+                border: 0;
+                background: #030b87;
+                color: #ffffff;
+                padding: 10px;
+                border-radius: 8px;
+                cursor: pointer;
+            }
+        }
+    }
+    .exportDataBtn{
+        margin-top: 25px;
+        button{
+            background-color: #0d9600;
+            padding: 6px 10px;
+            cursor: pointer;
+            border: none;
+            color: white;
+            border-radius: 4px;
+        }
+    }
+}
+
